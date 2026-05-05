@@ -1,8 +1,12 @@
 import express, { json } from 'express';
 import { log } from './middleware/logger.js';
+import notificationRoutes from './routes/notificationRoutes.js';
 
 const app = express();
 app.use(json({ strict: false }));
+
+// Notification routes
+app.use('/notifications', notificationRoutes);
 
 app.get('/example', async (req, res) => {
     try {
