@@ -1,0 +1,26 @@
+{
+  "name": "233167",
+  "version": "1.0.0",
+  "description": "College Interview Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham25-stack/233167.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/shubham25-stack/233167/issues"
+  },
+  "homepage": "https://github.com/shubham25-stack/233167#readme",
+  "dependencies": {
+    "axios": "^1.16.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
